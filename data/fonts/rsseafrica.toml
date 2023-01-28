@@ -1,0 +1,11 @@
+# Font style metadata
+name = "RSSEAFRICA"
+
+# Optional Google font URL
+google_fonts = "family=Playfair+Display:wght@700&family=Roboto+Mono&family=Roboto:wght@400;700"
+
+# Font families
+heading_font = "Playfair Display"
+body_font = "Roboto"
+nav_font = "Roboto"
+mono_font = "Roboto Mono"

@@ -1,0 +1,23 @@
+# Theme metadata
+name = "RSSEAFRICA"
+
+[light]
+  # Primary
+  primary = "#1565c0"
+
+  # Menu
+  menu_primary = "#fff"
+  menu_text = "#4A8639"
+  menu_text_active = "#BE2523"
+  menu_title = "#4A8639"
+
+  # Home sections
+  home_section_odd = "rgb(255, 255, 255)"
+  home_section_even = "rgb(247, 247, 247)"
+
+[dark]
+  # Primary
+  primary = "#3D63B0"
+
+  link = "#3D63B0"
+  link_hover = "#BE2523"
