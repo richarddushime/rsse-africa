@@ -13,7 +13,7 @@ name = "RSSEAFRICA"
 
   # Home sections
   home_section_odd = "rgb(255, 255, 255)"
-  home_section_even = "rgb(247, 247, 247)"
+  home_section_even = "rgb(232,240,231)"
 
 [dark]
   # Primary

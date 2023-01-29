@@ -7,25 +7,64 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: Posts
-    url: '#posts'
+
+  - name: About us
     weight: 20
-  - name: Events
-    url: '#events'
+  - name: History
+    weight: 10
+    url: history
+    parent: About us
+  - name: Our goals
+    weight: 20
+    url: goals
+    parent: About us
+  - name: Volunteers
+    weight: 20
+    url: people
+    parent: About us
+  - name: Sponsors
     weight: 30
-  - name: Projects
-    url: '#projects'
-    weight: 40
+    url: sponsors
+    parent: About us
 
   - name: Join us
     url: 'join'
+    weight: 30
+  - name: Events
+    url: '#events'
+    weight: 40
+  - name: Projects
+    url: 'project'
     weight: 50
-  - name: Contact
-    url: 'contact'
+  - name: Blog
+    url: 'post'
     weight: 60
+
+  - name: Resources
+    weight: 60
+  - name: Community spotlights
+    url: spotlights
+    weight: 10
+    parent: Resources
+  - name: African RSE initiatives
+    url: africa
+    weight: 20
+    parent: Resources
+  - name: Global communities
+    url: global
+    weight: 20
+    parent: Resources
+  - name: Mentorship
+    url: mentorship
+    weight: 40
+    parent: Resources
+
   - name: Community Guidelines
     url: "code"
     weight: 70
+  - name: Contact
+    url: 'contact'
+    weight: 80
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.

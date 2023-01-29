@@ -6,6 +6,7 @@ type: landing
 
 sections:
   - block: hero
+    id: about
     content:
       title: "Research Software & Systems Engineers of Africa"
       image:
@@ -27,33 +28,38 @@ sections:
       text: |
         <a href="join"><img style="display: block; margin-left: auto; margin-right: auto; width: 30%;" src="static-images/sign-up.png" alt="sign up button"></img></a>
 
-  - block: collection
-    id: posts
+  - block: features
+    id: what
     content:
-      title: Blog Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
+      title: "What is research software?" 
+      subtitle: |
+        <br> A number of definitions has been used to communicate about research software. To know who this community is for, we need to set the scope for what research software entails. <br>
+      image:
+        filename: 
+      text: |
+        <br> For this community we will use the definition developed by the FAIR for Research Software working group (FAIR4RS) in 2021.
+
+        # :thought_balloon:
+        
+        > Research Software includes source code files, algorithms, scripts, computational workflows
+        > and executables that were created during the research process or for a research purpose.
+        > Software components (e.g., operating systems, libraries, dependencies, packages, scripts,
+        > etc.) that are used for research but were not created during or with a clear research intent
+        > should be considered software in research and not Research Software. This differentiation
+        > may vary between disciplines. The minimal requirement for achieving computational
+        > reproducibility is that all the computational components (Research Software, software used
+        > in research, documentation and hardware) used during the research are identified,
+        > described, and made accessible to the extent that is possible.
+
+        _Read the full report at https://doi.org/10.5281/zenodo.5504015._
+
+      cta:
+        label: Read the ReSA report
+        url: https://talarify.us14.list-manage.com/subscribe?u=35d5db26d3b108b9ef9b9ac43&id=55e9f5a692
+
+      cta_alt:
+        label: Read the blog post by Vanessa Sochat
+        url: https://vsoch.github.io/2020/what-is-research-software/
 
   - block: collection
     id: events
@@ -110,6 +116,34 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+
+  - block: collection
+    id: posts
+    content:
+      title: Blog Posts
+      subtitle: ''
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        folders:
+          - post
+        author: ""
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+      # Choose a layout view
+      view: compact
+      columns: '2'
 
 
   - block: twitter-block

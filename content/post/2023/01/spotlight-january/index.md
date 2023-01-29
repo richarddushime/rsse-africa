@@ -1,18 +1,18 @@
 ---
-title: "Meet Keaghan Brown"
+title: "January 2023: Meet Keaghan Brown"
 subtitle: 
 
 # Summary for listings and search engines
-summary: Welcome 👋 to our first community member spotlight! Meet Keaghan Brown, a Masters student at the South African National Bioinformatics Institute in South Africa.
+summary: Welcome 👋 to our first community member spotlight! Our first spotlight falls on a Masters student at the South African National Bioinformatics Institute in South Africa.
 
 # Link this post with a project
 projects: []
 
 # Date published
-date: '2020-12-13T00:00:00Z'
+date: '2023-01-28T00:00:00Z'
 
 # Date updated
-lastmod: '2020-12-13T00:00:00Z'
+lastmod: '2023-01-29T00:00:00Z'
 
 # Is this an unpublished draft?
 draft: false
@@ -33,6 +33,9 @@ authors:
 
 tags:
   - Community members
+  - MSc
+  - Bioinformatics
+  - South Africa
 
 categories:
   - South Africa
