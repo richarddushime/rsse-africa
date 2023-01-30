@@ -9,7 +9,7 @@ date: '2023-01-27T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Push pins on the world map by [Алексей Голуб](https://stock.adobe.com/za/contributor/207675646/%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9-%D0%B3%D0%BE%D0%BB%D1%83%D0%B1?load_type=author&prev_url=detail)
+  caption: パートナーシップ By [metamorworks](https://stock.adobe.com/za/contributor/205266538/metamorworks?load_type=author&prev_url=detail)
   focal_point: Smart
   preview_only: true
 
@@ -44,4 +44,4 @@ The interview questions is available online. Please take a look at them and let 
 
 ## Read about our community members
 
-:wave: January 2023: [Keaghan Brown](http://localhost:1313/post/2023/01/spotlight-january/) _(South Africa)_
+:wave: January 2023: [Keaghan Brown](../../post/2023/01/spotlight-january/) _(South Africa)_
